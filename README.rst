@@ -1,4 +1,4 @@
-Jenkins 
+Jenkins
 =======
 
 1. Uruchom jenkins-a:
@@ -21,3 +21,10 @@ Related
 -------
 
 - https://github.com/sheehan/job-dsl-gradle-example
+
+1.  Fork, git clone, plik README.rst, instalowanie,
+wejście do jenkins (haslo z cat jenkins/secrets/initialAdminPassword, login admin)
+docker rm jenkins-wsb - remowe dockera
+2. New item -> github Organisation i nazwa
+3. Add jenkins (credencials), owner jako asajewicz (nazwa githuba) i save
+4. Mozan sprawdzic na github (zielone ptaszki w commitach), że sprawdza 2 ścieżki - travis i jenkins
